@@ -35,8 +35,6 @@
         ExperienceDataStore.set(data.experience);
         TestimonialDataStore.set(data.testimonials);
         FooterDataStore.set(data.footer);
-        console.log($FooterDataStore);
-        
     }
 
     onMount(async () => {
