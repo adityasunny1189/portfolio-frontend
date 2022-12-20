@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { onMount } from "svelte";
-	import type { Data } from "../data.msg";
+    import { onMount } from "svelte";
+    import type { Data } from "../data.msg";
     import BodyComponent from "./BodyComponent.svelte";
     import LoaderComponent from "./Loader/LoaderComponent.svelte";
     import { 
@@ -35,6 +35,8 @@
         ExperienceDataStore.set(data.experience);
         TestimonialDataStore.set(data.testimonials);
         FooterDataStore.set(data.footer);
+        console.log($FooterDataStore);
+        
     }
 
     onMount(async () => {

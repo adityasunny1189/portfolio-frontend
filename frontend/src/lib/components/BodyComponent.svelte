@@ -1,7 +1,9 @@
 <script lang="ts">
+	import FooterComponent from "./Footer/FooterComponent.svelte";
+	import HeaderComponent from "./Header/HeaderComponent.svelte";
+
 
 </script>
 
-<div>
-    the data has been loaded.
-</div>
+<HeaderComponent />
+<FooterComponent />
