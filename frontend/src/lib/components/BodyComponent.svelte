@@ -1,4 +1,5 @@
 <script lang="ts">
+	import ContactMeComponent from "./Contact/ContactMeComponent.svelte";
 	import EducationComponent from "./Education/EducationComponent.svelte";
 	import FooterComponent from "./Footer/FooterComponent.svelte";
 	import HeaderComponent from "./Header/HeaderComponent.svelte";
@@ -16,5 +17,5 @@
 
 
 <TestimonialsComponent />
-
+<ContactMeComponent />
 <FooterComponent />
