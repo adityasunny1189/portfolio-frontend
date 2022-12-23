@@ -22,7 +22,7 @@
                 <Typewriter mode="scramble" interval={100}>
                     <h1 class="text-5xl font-bold">{heroData.name}</h1>
                 </Typewriter>
-                <Typewriter mode="loopOnce" cursor={false} interval={100}>
+                <Typewriter mode="loop" cursor={false} interval={100}>
                     <h3 class="text-xl font-thin">{heroData.title}</h3>
                 </Typewriter>
                 <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>

@@ -63,3 +63,9 @@ export interface Testimonial {
     title:   string;
     details: string;
 }
+
+export interface Contact {
+    name:   string;
+    url:    string;
+    logo:   string;
+}
