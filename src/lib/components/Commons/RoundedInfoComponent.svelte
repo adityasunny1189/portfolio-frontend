@@ -14,9 +14,9 @@
             <p>{education.start_year}-{education.end_year}</p>
         </div>
         <div class="">
-            <h1 class="text-xl font-bold">{education.name}</h1>
-            <h3 class="text-lg font-thin">{education.title}</h3>
-            <p class="shrink w-64">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <h1 class="text-xl text-[#f97316] font-bold">{education.name}</h1>
+            <h3 class="text-lg text-success font-thin">{education.title}</h3>
+            <p class="shrink w-64">{education.description}</p>
         </div>
     </div>
 </div>

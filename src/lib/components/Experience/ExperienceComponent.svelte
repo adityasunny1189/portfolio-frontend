@@ -13,7 +13,7 @@
 </script>
 
 <div data-theme="dark" id="Experience" class="text-center py-5">
-    <div class="text-4xl my-5 font-medium">Experience</div>
+    <div class="text-4xl my-5 text-white font-medium">Experience</div>
 
     <ul class="steps steps-vertical">
         {#each experienceData as experience}

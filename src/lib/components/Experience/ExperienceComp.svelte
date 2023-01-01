@@ -13,9 +13,9 @@
             <p>{experience.end_year}</p>
         </div>
         <div class="">
-            <h1 class="text-xl font-bold">{experience.name}</h1>
-            <h3 class="text-lg font-thin">{experience.title} [{experience.job_type}]</h3>
-            <p class="shrink w-64">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <h1 class="text-xl text-[#f97316] font-bold">{experience.name}</h1>
+            <h3 class="text-lg text-success font-thin">{experience.title} <span class="text-info">[{experience.job_type}]</span></h3>
+            <p class="shrink w-64">{experience.about}</p>
             <div class="mt-1 shrink w-64">
                 {#each experience.tech as t}
                     <p class="badge badge-warning mx-1 badge-outline">{t}</p>

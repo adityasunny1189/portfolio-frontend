@@ -12,7 +12,7 @@
 </script>
 
 <div data-theme="dark" id="Skills" class="text-center py-5">
-    <div class="text-4xl my-5 font-medium">Skills</div>
+    <div class="text-4xl my-5 text-white font-medium">Skills</div>
     <div class="grid grid-cols-4 gap-4">
         {#each skills as skill}
             <SkillComponent skill={skill} />

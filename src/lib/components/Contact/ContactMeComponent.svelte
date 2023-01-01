@@ -46,7 +46,7 @@
 </script>
 
 <div data-theme="dark" id="Contact Me" class="text-center py-5">
-    <div class="text-4xl my-5 font-medium">Contact Me</div>
+    <div class="text-4xl text-white my-5 font-medium">Contact Me</div>
 
     <div class="grid grid-cols-3 gap-4 my-5">
         {#each contacts as contact}

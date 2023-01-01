@@ -13,7 +13,7 @@
 </script>
 
 <div data-theme="dark" id="Testimonials" class="text-center bg-base-200 py-5">
-    <div class="text-4xl my-5 font-medium">Testimonials</div>
+    <div class="text-4xl my-5 text-white font-medium">Testimonials</div>
     <div class="carousel w-full">
         {#each testimonialsData as testimonial, i}
             <!-- <TestimonialComp testimonial={testimonial} /> -->
