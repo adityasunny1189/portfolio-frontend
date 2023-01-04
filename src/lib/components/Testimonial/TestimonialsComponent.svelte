@@ -20,8 +20,8 @@
             <div id="slide{i+1}" class="carousel-item relative w-full">
                 <TestimonialComp testimonial={testimonial} />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide{testimonialsData.length}" class="btn btn-circle">❮</a> 
-                    <a href="#slide{i+2}" class="btn btn-circle">❯</a>
+                    <a href="#slide{testimonialsData.length}" class="btn btn-circle opacity-30 hover:opacity-100">❮</a> 
+                    <a href="#slide{i+2}" class="btn btn-circle opacity-30 hover:opacity-100">❯</a>
                 </div>
             </div> 
         {/each}

@@ -23,7 +23,7 @@
                     <h1 class="text-5xl text-white font-bold">{heroData.name}</h1>
                 </Typewriter>
                 <Typewriter mode="loop" cursor={false} interval={100}>
-                    <h3 class="text-xl text-success font-thin">{heroData.title}</h3>
+                    <h3 class="text-xl h-7 text-success font-thin">{heroData.title}</h3>
                 </Typewriter>
                 <p class="py-6">{heroData.about}</p>
             </div>
